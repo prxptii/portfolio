@@ -150,6 +150,13 @@ footer{background:var(--foot);color:var(--foot-ink);padding:70px 5vw 36px;overfl
   .row{grid-template-columns:1fr;gap:8px}.row .px{text-align:left}
   .top nav .lnk:nth-child(n+3){display:none}.fun .em{display:none}
   .tag{font-size:.8rem}
+  .stage{aspect-ratio:auto;padding:46px 0 64px}
+  .pw{position:relative!important;width:100%!important;top:0!important}
+  .pa,.stage .tag{display:none}
+  .pj{width:22%!important;top:-4%!important;right:-2%!important;z-index:2}
+  .pp{width:24%!important;bottom:0!important;left:-2%!important}
+  .win pre{white-space:pre-wrap;font-size:.74rem;min-height:14.5em}
+  .say .lnk.mail{display:table;font-size:clamp(1rem,5.4vw,1.6rem);word-break:normal;margin-top:6px}
 }
 </style>
 </head>
@@ -195,15 +202,15 @@ footer{background:var(--foot);color:var(--foot-ink);padding:70px 5vw 36px;overfl
   </div>
 
   <div class="stage" aria-hidden="true">
-    <div class="par" data-depth="10" style="left:0;top:12%;width:84%">
+    <div class="par pw" data-depth="10" style="left:0;top:12%;width:84%">
       <div class="win" style="position:relative;left:0;top:0;width:100%">
         <div class="bar"><i></i><i></i><i></i><span class="px">about-me.js</span></div>
 <pre id="code"></pre>
       </div>
     </div>
-    <div class="par" data-depth="34" style="right:0;top:-3%;width:30%"><svg class="ic bob" style="width:100%;height:auto;aspect-ratio:64/72"><use href="#i-jelly"/></svg></div>
-    <div class="par" data-depth="26" style="left:2%;bottom:0;width:30%"><svg class="ic bob" style="width:100%;height:auto;aspect-ratio:1;animation-delay:1.2s"><use href="#i-planet"/></svg></div>
-    <div class="par" data-depth="18" style="right:2%;bottom:5%;width:34%">
+    <div class="par pj" data-depth="34" style="right:0;top:-3%;width:30%"><svg class="ic bob" style="width:100%;height:auto;aspect-ratio:64/72"><use href="#i-jelly"/></svg></div>
+    <div class="par pp" data-depth="26" style="left:2%;bottom:0;width:30%"><svg class="ic bob" style="width:100%;height:auto;aspect-ratio:1;animation-delay:1.2s"><use href="#i-planet"/></svg></div>
+    <div class="par pa" data-depth="18" style="right:2%;bottom:5%;width:34%">
       <div class="agent">
         <div class="art"><svg class="ic"><use href="#i-note"/></svg></div>
         <b class="px">nāda</b>
@@ -277,7 +284,7 @@ footer{background:var(--foot);color:var(--foot-ink);padding:70px 5vw 36px;overfl
 
 <section class="say" id="contact">
   <div class="in">
-    <p class="disp">got a project, an internship or a weird idea? write to <a class="lnk" href="mailto:praptiikalia@gmail.com">praptiikalia@gmail.com</a></p>
+    <p class="disp">got a project, an internship or a weird idea? write to <a class="lnk mail" href="mailto:praptiikalia@gmail.com">praptiikalia@gmail.com</a></p>
     <div class="more">
       <a class="lnk" href="https://www.linkedin.com/in/prapti-k/" target="_blank" rel="noopener">linkedin ↗</a>
       <a class="lnk" href="cv.pdf" download>download my cv ↗</a>
